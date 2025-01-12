@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #deefe7;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5em;
+  height: 5em;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+li {
+  list-style-type: none;
+}
+li:hover {
+  color: blue;
+  cursor: pointer;
+}
+#logo-tutora {
+  width: 10em;
+  height: auto;
+}
+.sign-icons {
+  display: flex;
+  gap: .5em;
+  cursor: pointer;
+}
+
+#logo-signin {
+  width: 2em;
+  height: auto;
+}
+#logo-signup {
+  width: 2em;
+  height: auto;
+}
